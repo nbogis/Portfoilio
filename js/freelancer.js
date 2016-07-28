@@ -41,4 +41,16 @@
         });
     });
 
+    // make navbar transparent when scrolling
+    $(window).scroll(function() {
+
+        if ($(this).scrollTop() == 0)
+            $('#mainNav').css({opacity: 1});
+        else
+        {
+            $('#mainNav').css({opacity: 0.8});
+        }
+    });
+
+
 })(jQuery); // End of use strict

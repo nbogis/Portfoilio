@@ -99,7 +99,9 @@ header .intro-text .skills {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  border: none; }
+  border: none;
+  /*opacity: 0.5;*/
+ }
 
 .navbar-custom a:focus {
   outline: none; }
@@ -217,7 +219,7 @@ section.success {
   -moz-transition: all ease 0.5s; }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
-  opacity: 1; }
+  opacity: 0.8; }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
   position: absolute;
